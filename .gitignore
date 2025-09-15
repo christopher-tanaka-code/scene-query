@@ -1,0 +1,87 @@
+# ----- Global -----
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Env files
+.env
+.env.*
+*.env
+*.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ----- Python / Django (backend/) -----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+backend/venv/
+.env.local
+.venv/
+venv/
+ENV/
+
+# Model cache directories
+backend/.model_cache/
+backend/**/.model_cache/
+**/.model_cache/
+
+# Django stuff
+backend/db.sqlite3
+backend/**/db.sqlite3
+backend/**/.media/
+backend/.media/
+backend/staticfiles/
+
+# Migrations cache files (keep migration .py files)
+backend/**/migrations/**/__pycache__/
+
+# Byte-compiled and cache
+backend/**/__pycache__/
+backend/**/.pytest_cache/
+.pytest_cache/
+.coverage*
+htmlcov/
+.tox/
+.mypy_cache/
+.pyright/
+
+# Local data/output
+backend/**/tmp/
+backend/tmp/
+
+# ----- Node / Next.js (frontend/) -----
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.vercel/
+frontend/.swc/
+frontend/out/
+frontend/dist/
+
+# Package managers
+package-lock.json
+pnpm-lock.yaml
+npm-packages-offline-cache/
+
+# Testing/coverage
+frontend/coverage/
+
+# Misc
+*.local
+
+# Ensure Git keeps otherwise-empty dirs
+!.gitkeep
